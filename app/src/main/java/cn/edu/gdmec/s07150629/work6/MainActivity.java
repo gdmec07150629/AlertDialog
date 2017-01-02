@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         ad.show();
     }
 
-    public void dialog2() {
+    public void dialog2(){
         ad = new AlertDialog.Builder(this).create();
         ad.setTitle("调查");
         ad.setMessage("你平时忙吗");
